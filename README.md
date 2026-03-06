@@ -22,20 +22,20 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 
 # Tech Stack
 
-### Frontend
+## Frontend
 - React
 - TypeScript
 - TailwindCSS
 - Framer Motion
 - React Router
 
-### Backend
+## Backend
 - Node.js
 - Express
 - MongoDB
 - Mongoose
 
-### AI & Media
+## AI & Media
 - OpenAI Image Generation API
 - Cloudinary Image Storage
 
@@ -48,12 +48,12 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 
 ---
 
-## Sign Up Page
+## Sign Up
 ![Signup](./screenshots/SignUpPage.png)
 
 ---
 
-## Login Page
+## Login
 ![Login](./screenshots/LoginPage.png)
 
 ---
@@ -63,7 +63,7 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 
 ---
 
-## Thumbnail Generator
+## Generate Thumbnail
 ![Generator](./screenshots/GeneratedThumbnails.png)
 
 ---
@@ -79,7 +79,7 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 ---
 
 ## Open Generated Image
-![OpenImage](./screenshots/OpeningDownloadedImage.png)
+![OpenImage](./screenshots/OpeningDownladedImage.png)
 
 ---
 
@@ -93,7 +93,7 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 
 ---
 
-## Testimonials Section
+## Testimonials
 ![Testimonials](./screenshots/FakeTestimonials.png)
 
 ---
@@ -113,46 +113,93 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/thumblify.git
+git clone https://github.com/EswarVali/thumblify.git
+```
 
 Go into the project directory
 
+```bash
 cd thumblify
-Backend Setup
+```
+
+---
+
+## Backend Setup
+
+Go to server folder
+
+```bash
 cd server
+```
+
+Install dependencies
+
+```bash
 npm install
+```
 
-Create a .env file
+Create a `.env` file in the **server folder**
 
+```
 MONGO_URI=your_mongodb_url
 OPENAI_API_KEY=your_openai_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+```
 
-Start backend
+Start backend server
 
+```bash
 npm run dev
-Frontend Setup
+```
+
+---
+
+## Frontend Setup
+
+Go to client folder
+
+```bash
 cd client
+```
+
+Install dependencies
+
+```bash
 npm install
+```
+
+Run the frontend
+
+```bash
 npm run dev
-Future Improvements
+```
 
-Stripe or Razorpay subscription plans
+The app will run at
 
-Unlimited thumbnail generation for Pro users
+```
+http://localhost:5173
+```
 
-Thumbnail editing tools
+---
 
-Prompt history
+# Future Improvements
 
-AI style presets
+- Razorpay or Stripe subscription plans
+- Unlimited thumbnail generation for Pro users
+- Thumbnail editing tools
+- Prompt history
+- AI style presets
 
-Author
+---
 
-Esh
+# Author
 
-License
+**Eswar Vali**
+
+---
+
+# License
 
 This project is for learning and portfolio purposes.
