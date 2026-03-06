@@ -79,7 +79,7 @@ Users can generate thumbnails quickly and download them directly from the dashbo
 ---
 
 ## Open Generated Image
-![OpenImage](./screenshots/OpeningDownladedImage.png)
+![OpenImage](./screenshots/OpeningDownloadedImage.png)
 
 ---
 
